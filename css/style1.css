@@ -1,11 +1,11 @@
 h1{
   font-size: 50px;
   font-style: italic;
-  color: purple;
+  color: white;
 }
 body{
       background-size: 300px 100px;
-      background-color: #cccccc;
+      background-color: #ff8000;
 }
 img.resize{
   width:300px;
