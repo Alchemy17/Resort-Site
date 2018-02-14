@@ -8,4 +8,8 @@ $(document).ready(function() {
       $("body").removeClass();
     $("body").addClass("light-background");
   });
+  $("#hghl").click(function() {
+  $("p").removeClass();
+  $("p").addClass("box");
+});
 });

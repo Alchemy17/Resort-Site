@@ -31,6 +31,10 @@ nav ,ul ,li ,a{
 .light-background{
   background-color: lightblue;
 }
+.box{
+  background-color: lightblue;
+  border: 5px solid red;
+}
 .clr{
   color: white;
 }
