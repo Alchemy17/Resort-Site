@@ -2,11 +2,15 @@
 <html>
   <head>
     <title> accommodations </title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/style1.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
-    <nav class="spacing">
-      <ul>
+    <div class="container">
+    <nav class="navbar navbar-default nav">
+      <ul class="nav navbar">
         <li><a href="resort-website.html">HOME</a></li>
         <li><a href="accommodations.html">ACCOMMODATIONS</a></li>
         <li><a href="activities.html">ACTIVITIES</a></li>
@@ -14,8 +18,14 @@
         <li><a href="images.html">PICTURES</a></li>
         <li><a href="contact.html">CONTACTS</a></li>
       </ul>
+    </nav>
+  <div class="jumbotron">
   <h1> ACCOMMODATIONS </h1>
-  <h2>With variety of garden and sea views, the rooms are here to wow you.</h2>
+  <p>With variety of garden and sea views, the rooms are here to wow you.</p>
+  </div>
+  <div class="rows">
+    <div class="col-md-6">
+  <div class="well">
   <p>Overlooking the sea and the beautifully manicured gardens dotted with
      swaying and whistling coconut trees, our varied room ranges are designed
      to provide you with a luxury and convenient stay.Presiding over these
@@ -25,4 +35,16 @@
      that defines Mombasa. Custom-furnished, and available as interconnecting
      family rooms or stand alone units, these are a beach and holiday lover’s
     dream.<br></p>
+  </div>
+    </div>
+    <div class="col-md-6">
         <img src="images/palm.jpg" alt="A beautiful image"->
+      </div>
+    </div>
+    <div class="bttn">
+    <button class="btn btn-success" id="light">Light Theme</button>
+    <button class="btn btn-success" id="dark">Dark Theme</button>
+  </div>
+    </div>
+    </body>
+<html>
